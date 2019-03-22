@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi');
+@import url('https://fonts.googleapis.com/css?family=Amiri');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+/* Nav bar code below */
+body {
+  background-image: url(../images/pexels.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu{
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.164);
+
+  }
+.menu ul{
+	margin: 0; padding: 0;
+	float: left;}
+.menu ul li{
+	display: inline;}
+.menu ul li a{
+	float: left; text-decoration: none;
+	color: white;
+	padding: 10.5px 11px;
+/* background-color: rgba(51, 51, 51, 0.185); } */}
+.menu ul li a:visited{
+	color: white;}
+.menu ul li a:hover, .menu ul li .current{
+	color: #fff;
+	background-color:#0b75b2;}
+li{
+  font-family: 'Major Mono Display', monospace;
+}
+
+h1 {
+  color: white;
+  font-size: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: 'Reem Kufi', sans-serif;
+  margin-top: 20px;
+
+}
+
+h2{
+  color: white;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+h4{
+  margin-top: -30px;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Amiri', serif;
+  font-weight: lighter;
+}
+span{
+  color: orange;
+}
+span:hover{
+  color: yellow;
+}
+
+#logo{
+  display: block;
+  margin: auto;
+  margin-top: 165px;
+  width: 145px;
+
+
+}
+#dev{
+  margin-top: 400px;
+  font-size: 60px;
+
+}
+#down{
+  display: block;
+  margin: auto;
+  margin-top: 140px;
+  margin-bottom: -200px;
+  height: 35px;
+  width: 90px;
+
+}
+#desc{
+  margin-top: -35px;
+  margin-bottom: 230px;
+  font-weight: lighter;
+  font-size: 15px;
+  font-family: monospace;
+  margin-left: 230px;
+
+}
+#linkHere{
+  color: orange;
+}
